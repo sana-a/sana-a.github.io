@@ -1,66 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sana Abdurahman | UofT ECE</title>
-	<!--<base href="/" /> -->
-
-	<link rel="stylesheet" type="text/css" href="main.css" />
+     <title>Sana Abdurahman | PROJECTS</title>
+     <link rel="stylesheet" type="text/css" href="main.css" />
 			<!-- <link rel="stylesheet" type="text/css" href="style/mobile.css" /> -->
 	
-			<link rel="stylesheet" type="text/css" href="about.css" />
-	
-<!--
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script type="text/javascript" src="//use.typekit.net/nlf8ijj.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-8662450-2', 'auto');
-	  ga('send', 'pageview');
-
-	</script> -->
-
+			<link rel="stylesheet" type="text/css" href="about.css" />	
 </head>
-<!--<body class="home page-about full-width">
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">About</a>
-  <a href="#">Projects</a>
-  <a href="#">Resume</a>
-  <a href="#">Contact</a>
-</div>
-
-<h2>Sana Abdurahman</h2>
-<p>Click on the element below to open the side navigation menu.</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.display = "block";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.display = "none";
-}
-</script>
-
--->
 <body>
-	<div id="outer-container">
-		<div id="container">
-
-								
 <div id="header" class="header-image">
-
-
-	<div class="header-image" style="background-image:url(zig.jpg)"></div>
-	<div class="title"><h1>Sana Abdurahman</h1></div>
+	<div class="header-image" style="background-image:url(pic4.jpg)"></div>
+	<div class="title"><h1>projects</h1></div>
 	<div id="nav">
 		<ul>
 			<a href="index.html"><li class="index.html">About</li></a>
@@ -70,12 +20,9 @@ function closeNav() {
 			<a href="contact.html"><li class="contact.html">Contact</li></a>
 		</ul>
 	</div>
-
 </div>
-			
 			<div id="content">
-
-				<div id="messagesContainer">
+<div id="messagesContainer">
 					<!--Cookie message -->
 											<div id="cookie-accept-container">
 							<div id="cookie-accept">
@@ -85,78 +32,75 @@ function closeNav() {
 								</div> -->
 							</div>
 						</div>
-
-					
 									</div>
-
 
 				<div id="content-main" class="full-width">
 					<div id="intro">
-	<h3> Electrical Engineering graduate &amp; EIT, <br>software developer &amp; designer  </h3>
+<!--<h1 class ="res1"> Projects</h1>-->
+<h3 class ="res2"> 3 Microgravity Experiments</h3>
+<div id="res3">
+<p> <strong>Project Summary</strong> </br> </br>
+The team designed and constructed three microgravity experiments that would be conducted by Astronauts4Hire and the Canadian Space Agency during a parabolic flight and suborbital flight. 
+ </br> </br>
+<strong>Experiment 1: Solid Body Rotation </strong> </br>
 
-	<p> Welcome! I am glad you have stopped by. My name is Sana Abdurahman and I am an Electrical and Computer Engineering <strong>(ECE) </strong> graduate from the University of Toronto, St George.
-		<br/> My time at the University has been a fruitful one as I have been given the opportunity to work on various <a href="project.html">projects</a>, gather many skills and <br/> encounter challenging problems that required innovative soutions. </p> 
-<p>Here I shall share some of my past and current <a href="project.html">projects</a>.  </p>
-		I design and create beautiful and functional solutions. I also <a href="poem.html">write poetry</a>.
-	</p>
+The first experiment explores rigid body rotation in microgravity and takes gyroscope measurements to demonstrate the intermediate axis theorem. It requires extensive programming, testing, wiring, circuitry, testing and debugging of the BLE Nano microprocessor to find the centre of gravity for rotation for intermediate and stable axis and also requires the implementation of the acceleration logger to capture gyroscope data. The microcontroller was connected with the Bluetooth chip using the mobile app, thus the information was moved to the microcontroller via Bluetooth. The microcontroller read values from I2C and passed them to an iPhone over Bluetooth. As a result, the data of the angular velocity of our solid body rotation experiment was captured and simulated as a graph on the computer via a python script.
 
+</p>
 
-	
-	<img src="sanatcpipmod.jpg" width="1000">
+<img src="elec.jpg" width="1000">
+
+<p>Clockwise from the top left they are: Gyro which measures rotation and also acceleration, microcontroller and bluetooth chip, 3.3V regulator, and battery holder. </p>
+
 </div>
 
+<div id="res3">
+<p> 
+<strong>Experiment 2: Magnetic Pendulum </strong> </br>
 
-<div class="bio">
-	<div class="bio-inner">
-		<h3>About</h3>
-		<div class="column1">
+The second demonstrates the motion of pendulums while the pendulum is being dropped. One pendulum is by itself and the other has an attractive magnet on the end. After the experiment was designed and built, the experiment was integrated and the Arduino circuit was tested and debugged.
 
-			<p>
-			My interest in software development began during my undergraduate years at the University of Toronto. However, majoring in Electrical Engineering I did not actively pursue it. What I loved about the  Electrical and Computer Engineering was the breadth of topics that it covered ranging from electromagnetism and power systems to analog and digital electronics to telecommuncations and control systems and hardware and software engineering. </p>
+</p>
 
-			<p>I appreciate the diversity of the courses that were offered at the University of Toronto and the enriching education that I received therein. My interests in software development were revived amidst my Professional Experience Year (PEY) when I worked as a 16 month RAMS Engineering Specialist after completing my third year. Thus, I spent the next few years learning <strong>HTML</strong>, <strong>CSS</strong>, <strong>PHP</strong> and <strong>Javascript </strong> to add to my knowledge of  <strong>Java </strong>, <strong>C </strong> and <strong>C++</strong>. </p>
-			  
-			<p> I have always had a deep passion for learning. Learning a new concept amazed to me. It would allow me discover new methods, overcome  challenges and ideally gain exposure to different perceptions. It brought with it a sense of adventure and I loved that. To me that was fun. That was exciting. Ultimately, that was how I preferred to spend my time. 
+<img src="pend.jpg" width="1000">
 
+<p> The pendulum in action! </p>
 
-			 </p>
-			
+</div>
 
-		</div>
-		<div class="column2">
-			<h4> FOCUS in ECE </h4>
-			 
-			<p> While studying Electrical and Computer Engineering my areas of focus were Software, Computer Hardware/Networks and Electronics. Among the awesome courses that I took are and particularly enjoyed are: <ul style="list-style-type:circle">
-			<li><abbr title="ECE345">Algorithms and Data Structures</abbr> </li>
-			<li><abbr title="ECE243">Computer Organization</abbr> </li>
-			<li><abbr title="ECE316">Computer Networks</abbr> </li>
-			<li><abbr title="ECE231">Electronics</abbr> </li>
-			<li><abbr title="ECE334">Digital Electronics</abbr> </li>
-			<li><abbr title="ECE316">Communication Systems</abbr> </li>
-			<li><abbr title="ECE411">Real Time Computer Control</abbr> </li>
-			<li><abbr title="ECE469">Optical Communications and Networks</abbr> </li>
-			<li><abbr title="CSC343">Databases</abbr> </li>
-			</ul>
-			</p>
+<div id="res3">
+<p> 
+<strong>Experiment 3: Capillary Action </strong> </br>
 
-			<h4>Current Work</h4>
-			<p>
-			I am available to work part-time on small web design, software development, and other projects on a freelance basis.
-			Please find examples of my work on the <a href="project.html ">projects</a> page, including the ones from my undergraduate years.
-			</p>
+The third experiment used various tubes to show capillary action to explain the phenomenon of fluid sloshing in the gas engines of spacecraft. After the experiment was designed and built data was measured through grid paper (5 mm) and refraction considerations. To meet safety requirements the triple containment guideline was implemented to ensure no liquid leaks.
 
-		</div>
-		<div class="clear"></div>
+</p>
 
+<img src="cap.jpg" width="1000">
+
+<p> Capturing Capillary Action! </p>
+
+</div>
+
+<div id="res3">
+<p> 
+<strong>More Projects to be released soon!</strong> </br>
+
+<ul>
+
+<li> Way2Go's new website</li>
+<li>Way2Go's new app </li>
+<li> xperience II game </li>
+</ul>
+</p>
+
+</div>
+
+				<div class="clear"></div>
 
 	</div>
 </div>
 
-
-<div class="stats">
-	<div class="line">I develop <span class="green">beautiful</span> attractive and responsive websites</div>
-	<div class="line">using <span class="skill">HTML</span> / <span class="skill">CSS</span> / <span class="skill">JavaScript</span> / <span class="skill">jQuery</span>  </div>
-	
 </div>
 
 				</div>
@@ -173,8 +117,6 @@ function closeNav() {
 			<span class="spacing"></span>
 			
 		</div>
-
-
 		<ul>
 			<li><a href="https://twitter.com/101_sana" target="_blank">Twitter</a></li>
 			<li><a href="https://www.facebook.com/tuxugne" target="_blank">Facebook</a></li>
@@ -189,7 +131,15 @@ function closeNav() {
 		</div>
 	</div>
 
-
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
